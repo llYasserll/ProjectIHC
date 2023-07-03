@@ -1,0 +1,17 @@
+.fondo_productos{
+    background-color: beige;
+  }
+
+  .color_subtitulo_span{
+
+    color: red;
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 20px;
+  }
+  .color_span{
+    color: blue;
+    font-size: 18px;
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }

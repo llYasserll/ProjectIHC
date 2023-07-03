@@ -1,0 +1,217 @@
+<!DOCTYPE html >
+<html  >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="contacto.css">
+    
+</head>
+<body >
+  <!--Menú de navegación-->
+  <div class="container_logo ">
+    <img src="img/logo.png" alt="Logo" class="logo_img">
+    <div class="columna">
+      <p>CUIDANDO PATITAS </p>
+      <p>VETERINARY CLINIC</p>
+    </div>
+    <div class="sedes">
+      <strong>LA VICTORIA</strong>
+      <strong>JESÚS MARÍA</strong>  
+      <strong>LINCE</strong>
+      <strong>BREÑA</strong>
+      <strong>RIMAC</strong>
+      <strong>PUENTE PIEDRA</strong>
+    </div>
+    <section id="equipo" class="team-contacto">
+           <img src="img/whatsapp.png" alt="Contacto1">
+           <img src="img/tiktok.png" alt="Contacto2">
+           <img src="img/telegram.png" alt="Contacto3">
+           <img src="img/twitter.webp" alt="Contacto4">
+           <img src="img/instagram.jpg" alt="Contacto5">
+           <img src="img/facebook.png" alt="Contacto6">
+    </section>
+  </div>
+  <nav class="navbar navbar-expand-lg header">
+    <div class="container-fluid">
+        <a class="navbar-brand text-white" href="#">Veterinaria </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active text-white" aria-current="page" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="nosotros.html">Nosotros</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Sedes
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="sede1.html">La Victoria</a></li>
+              <li><a class="dropdown-item" href="sede2.html">Jesús María</a></li>
+              <li><a class="dropdown-item" href="sede3.html">Lince</a></li>
+              <li><a class="dropdown-item" href="sede4.html">Breña</a></li>
+              <li><a class="dropdown-item" href="sede5.html">Rimac</a></li>
+              <li><a class="dropdown-item" href="sede6.html">Puente Piedra</a></li>
+            </ul>
+          <li class="nav-item">
+            <a class="nav-link" href="hospedaje.html">Hospedaje</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Servicios
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="servicio1.html">Servicios generales</a></li>
+              <li><a class="dropdown-item" href="servicio2.html">Especialidades</a></li>
+              <li><a class="dropdown-item" href="servicio3.html">Exámenes complementarios</a></li>
+            </ul>
+          </li>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Productos
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="farmacia.html">FARMACIA</a></li>
+            <li><a class="dropdown-item" href="petshot.html">PETSHOT</a></li>
+            <li><a class="dropdown-item" href="bionica.html">BIONICA</a></li>
+          </ul>
+        </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacto.html">Contacto</a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+<section class="fondo_contacto">
+ <div class="container_mensaje">
+    <h1>¡ENVÍANOS UN MENSAJE!</h1>
+    <form id="contactForm" onsubmit="enviarFormulario(event)" method="POST" action="http://localhost:3000/enviar-mensaje">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required><br>
+  
+      <label for="telefono">Teléfono:</label>
+      <input type="text" id="telefono" name="telefono" required><br>
+  
+      <label for="correo">Correo Electrónico:</label>
+      <input type="email" id="correo" name="correo" required><br>
+  
+      <label for="sede">Sede:</label>
+      <select id="sede" name="sede" required>
+        <option value="">Seleccionar</option>
+        <option value="sede1">La Victoria</option>
+        <option value="sede2">Jesús Maria</option>
+        <option value="sede3">Lince</option>
+        <option value="sede2">Breña</option>
+        <option value="sede3">Rimac</option>
+        <option value="sede3">Puente Piedra</option>
+      </select><br>
+      <label for="mensaje">Mensaje:</label>
+      <textarea  type="message" id="mensaje" name="mensaje" required > </textarea>
+        
+      <h1>CAPTCHA</h1>
+      <div class="g-recaptcha" data-sitekey="TU_CLAVE_RECAPTCHA"></div>
+      <button  tyete="submit">Enviar</button>
+    </form>
+    <img src="img/perro-medio.png" alt="Logo" class="contacto_img">
+   </div>
+
+<div class="container_contacto_sedes" >
+    
+    <aside class="sidebar ">
+      <div class="sede1_posicion">
+        <h2>SEDE LA VICTORIA</h2>
+        <p class="mb-0">Av. Isabel La Catolica 972, La Victoria</p>
+        <p class="mb-0">Atención: Lunes a Viernes - 8:30 am a 8:00 pm</p>
+        <p class="mb-0">998195193 (yape/plin)</p>
+        <p class="mb-0">BCP: 01 446 6179 1 01 6387 5132</p>
+        <p>BBVA: 4557 4345 4348 1536</p>
+        <img src="img/meto_pago_logo.png" class="sede_contacto_img_1">
+        <img src="img/logo_pago.png" class="sede_contacto_img_1_2">
+      </div>
+      <div class="sede2_posicion">
+        <h3>SEDE LINCE</h3>
+        <p class="mb-0">Av. Risso 548, Lince</p>
+        <p class="mb-0">Atención: 
+          <li class="mb-0">Lunes a Viernes - 8:30 am a 8:00 pm</li>
+          <li class="mb-0">Sabados: 8:00 am - 2:00 pm</li>
+        </p>
+        <p class="mb-0">936283095 (yape/plin)</p>
+        <p class="mb-0">BCP: 4338 4642 4566 1664</p>
+        <p>BBVA: 4557 5946 1648 5644</p>
+        <img src="img/meto_pago_logo.png" class="sede_contacto_img_2">
+        <img src="img/logo_pago.png" class="sede_contacto_img_2_2">
+      </div>
+
+      <div class="sede3_posicion">
+        <h3>SEDE RIMAC</h3>
+        <p class="mb-0">Av. Samuel Alcazar 681, Rimac</p>
+        <p class="mb-0">Atención: 
+          <li>Lunes a Miercoles - 8:30 am a 7:00 pm</li>
+          <li>Viernes - 10:30 am a 7:30 pm</li>
+          <li>Sabados: 8:00 am - 2:00 pm</li>
+        </p>
+        <p class="mb-0">954642346 (yape/plin)</p>
+        <p class="mb-0">BCP: 4348 1234 7896 1645</p>
+        <p>BBVA: 4557 8943 1642 3146</p>
+        <img src="img/meto_pago_logo.png" class="sede_contacto_img_3">
+        <img src="img/logo_pago.png" class="sede_contacto_img_3_2">
+      </div>
+
+      <div class="sede4_posicion">
+        <h3>SEDE BREÑA</h3>
+        <p class="mb-0">Av. Aguarico 12345, Breña</p>
+        <p class="mb-0">Atención: 
+          <li>Lunes a Viernes - 8:30 am a 8:00 pm</li>
+          <li>Sabados: 8:00 am - 2:00 pm</li>
+        </p>
+        <p class="mb-0">964564237 (yape/plin)</p>
+        <p class="mb-0">BCP: 4338 1654 4641 5463</p>
+        <p>BBVA: 4557 4645 1367 4536</p>
+        <img src="img/meto_pago_logo.png" class="sede_contacto_img_4">
+        <img src="img/logo_pago.png" class="sede_contacto_img_4_2">
+  
+      </div>
+
+      <div class="sede5_posicion">
+        <h3>SEDE JESUS MARIA</h3>
+        <p class="mb-0">Av. Gral. Salaverry 548, Jesus María</p>
+        <p class="mb-0">Atención: 
+          <li>Lunes a Viernes - 8:30 am a 8:00 pm</li>
+          <li>Sabados: 8:00 am - 2:00 pm</li>
+        </p>
+        <p class="mb-0">954661864 (yape/plin)</p>
+        <p class="mb-0">BCP: 4338 5463 4643 4764</p>
+        <p>BBVA: 4557 1464 4648 4615</p>
+        <img src="img/meto_pago_logo.png" class="sede_contacto_img_5">
+        <img src="img/logo_pago.png" class="sede_contacto_img_5_2">
+      </div>
+
+    </aside>
+</div>
+
+<!-- Pie de página -->
+<footer>
+  <div class="container">
+    <p>&copy; 2023 Veterinaria Cuidando Patitas. Todos los derechos reservados.</p>
+  </div>
+</footer>
+
+  <script src="script.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</body>
+</html>

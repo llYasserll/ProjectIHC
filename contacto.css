@@ -1,0 +1,148 @@
+
+.fondo_contacto
+{
+    background-color: white;
+}
+.sede1_posicion{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  margin-top: -40px;
+  margin-bottom: 50px;
+  margin-left: -20px;
+}
+.sede2_posicion{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  margin-bottom: 50px;
+  margin-left: -20px;
+}
+.sede3_posicion{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  margin-bottom: 50px;
+  margin-left: -20px;
+}
+.sede4_posicion{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  margin-bottom: 50px;
+  margin-left: -20px;
+}
+.sede5_posicion{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  margin-bottom: 50px;
+  margin-left: -20px;
+}
+
+.container_mensaje{
+    max-width: 700px;
+    max-height: 1000px;
+    min-height: 60px;
+    padding: 20px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    text-align: justify;
+    background-color: white;
+ }
+ .container_contacto_sedes
+ {
+    position: relative;
+    max-width: 900px;
+    padding: 80px;
+    background-color: #2C2C3E;
+   
+    text-align: justify;
+        margin-left: 890px;
+        margin-bottom: 0px;
+        margin-top: -1080px;
+}
+
+.sede_contacto_img_1{
+  width: 200px;
+ margin-left: 340px;
+ margin-top: -150px;
+}
+.sede_contacto_img_1_2
+{
+  width: 180px;
+  margin-left: 600px;
+  margin-top: -118px;
+}
+
+.sede_contacto_img_2{
+  width: 200px;
+ margin-left: 340px;
+ margin-top: -150px;
+}
+.sede_contacto_img_2_2
+{
+  width: 180px;
+  margin-left: 600px;
+  margin-top: -118px;
+}
+.sede_contacto_img_3{
+  width: 200px;
+ margin-left: 340px;
+ margin-top: -150px;
+}
+.sede_contacto_img_3_2
+{
+  width: 180px;
+  margin-left: 600px;
+  margin-top: -118px;
+}
+.sede_contacto_img_4{
+  width: 200px;
+ margin-left: 340px;
+ margin-top: -150px;
+}
+.sede_contacto_img_4_2
+{
+  width: 180px;
+  margin-left: 600px;
+  margin-top: -118px;
+}
+
+.sede_contacto_img_5{
+  width: 200px;
+ margin-left: 340px;
+ margin-top: -150px;
+}
+.sede_contacto_img_5_2
+{
+  width: 180px;
+  margin-left: 600px;
+  margin-top: -118px;
+}
+
+.contacto_img
+{
+    width: 600px;
+    margin-top: 150px;
+    margin-left: 80px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+  }
+textarea{
+    width: 500px;
+    height: 200px;
+    display: block;
+    margin-bottom: 25px;
+
+}
+  
+  input, select {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+  }

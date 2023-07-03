@@ -1,0 +1,105 @@
+.fondo_sedes_mapa{
+  background-color: beige;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.color_subtitulo_span{
+  color: red;
+  font-size: 45px;
+}
+.color_span{
+  color: blue;
+  font-size: 18px;
+}
+
+.imagen{
+  overflow: hidden;
+  width: 500px;
+  height: 350px;
+  margin-left: 600px;
+  margin-top: -350px;
+}
+
+  /*Color de la letra : "Acerca de Nuestras Mascotas y Nuestros" */
+  .custom_heading {
+    color: #030404;
+  }
+  
+  /*Color de la letra : "Clínica y Servicios" */
+  .custom_heading span {
+    color: #21d7ff;
+  }
+  
+
+.color_banda{
+  background-color: #C62626;
+}
+
+.fondo_sedes_servicios{
+  background-color: beige;
+  margin-bottom: -40px;
+  margin-top: -50px;
+}
+.fondo_sedes_equipo{
+  background-color: beige;
+  margin-bottom: -40px;
+  margin-top: -50px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.Espacio {
+  margin-bottom: 2px;
+  margin-left: 100px;
+}
+.alinear{
+margin-left: 100px;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.EspacioT {
+margin-bottom: 15px;
+
+}
+
+.texto-p {
+margin-top: 5px;
+font-size: 24px; 
+font-weight: bold;
+
+}
+
+.portafolio{
+margin-left: 135px;
+margin-bottom: 70px;
+width: 100px;
+
+overflow: hidden;
+}
+.abajo{
+margin-bottom: 50px;
+}
+.t{
+margin-top: 30px;
+font-weight: bold;
+}
+
+/* Estilos de equipo */
+.team-member {
+  display: inline-block;
+  vertical-align: top;
+  width: 300px;
+  margin: 20px;
+}
+.team-member img {
+  width: 100%;
+  border-radius: 50%;
+}
+.cuadro_texto{
+  background-color: aquamarine;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

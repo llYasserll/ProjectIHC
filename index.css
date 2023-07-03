@@ -1,0 +1,321 @@
+/*Cabecera*/
+
+.header{
+  background-color: #63BD92 ;
+}
+
+/* Estilos de navegación */
+
+.nav-link{
+    color: white !important;
+    font-size: 20px;
+}
+
+.nav-link.active{
+    color: rgb(211, 208, 52) !important;
+}
+  
+body {
+    font-family: Arial, sans-serif;
+    color: black;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  nav {
+    
+    background-color: white;
+    color: black;
+    padding: 10px;
+  }
+  
+  /*Estilo Iconos de Contacto */
+  .container_contacto {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+  }
+  .team-contacto {
+    display: grid;
+    grid-template-columns: repeat(2, 0fr);
+    grid-gap: 5px;
+    margin-left:200px;
+    background-color: white;
+    margin-top: -30px;
+    margin-bottom: -40px;
+  }
+
+  .team-contacto img {
+    width: 50px;
+    border-radius: 5%;
+    margin-left:  10px;
+    margin-right: 10px; /* Espacio entre el logo y el texto */
+  }
+
+  /*Estilo Logo*/
+  .logo_img {
+    max-width: 280px; /* Ajusta el tamaño del logo según tus necesidades */
+    margin-right: -30px; /* Espacio entre el logo y el texto */
+    margin-bottom: -47px;
+    margin-left: -35px;
+    margin-top: -20px;
+  }
+  .logo_img_cabecera{
+    max-width: 430px; /* Ajusta el tamaño del logo según tus necesidades */
+    margin-bottom: -30px;
+    margin-left: 80px;
+    margin-top: -30px;
+  }
+  .container_logo {
+    display: flex;
+    align-items: center;
+    color: black; /*color de texto*/
+    text-align: bold;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .columna_flex{
+    flex-basis: 30%;
+    padding: 15px;
+  }
+  .sedes {
+    margin-right: 15px; /* Espacio entre el logo y el texto */
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black; /*color de texto*/
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin-left: 100px;
+  }
+
+  /* Estilos de secciones */
+  section {
+    padding: 40px 0;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  section h2 {
+    margin-bottom: 20px;
+  }
+  
+  section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Estilos de equipo */
+  .team-member {
+    display: inline-block;
+    vertical-align: top;
+    width: 300px;
+    margin: 20px;
+  }
+
+  .team-member img {
+    width: 100%;
+    border-radius: 50%;
+  }
+  
+
+  /*Color de la letra : "Acerca de Nuestras Mascotas y Nuestros" */
+.custom_heading {
+  color: #030404;
+}
+
+/*Color de la letra : "Clínica y Servicios" */
+.custom_heading span {
+  color: #21d7ff;
+}
+
+/*fondo y posicion de la imagen, se usa el URL para traer la imagen de la carpera img*/
+.slider_section {
+  background-image: url(img/hero.jpg);
+  padding: 6% 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*Posicion centrada todo el contenedor del textno y boton*/
+
+.slider_section .row {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/*Color y posicion de la letra : "Professional" */
+.slider_detail-box h1 {
+  color: #ffffff;
+  font-size: 52px;
+}
+
+/*Color y posicion de la letra : "CUIDADO DE TU MASCOTA" */
+.slider_detail-box h1 span {
+  display: inline-block;
+  color: #434242;
+  font-weight: bold;
+}
+
+/*Color y posicion del párrafo*/
+.slider_detail-box p {
+  color: #f6f8f7;
+  margin-top: 45px;
+  margin-bottom: 40px;
+}
+
+/*Boton de "CONTACTO"-forma, fondo y diseño*/
+
+.slider_detail-box .btn-box .btn-2 {
+  display: inline-block;
+  padding: 10px 45px;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  color: #023b48;
+}
+
+.slider_detail-box .btn-box .btn-2:hover {
+  background-color: transparent; /*al momento de seleccionar el boton se pone transparente*/
+  color: #ffffff;
+}
+
+/*Seccion de Img Inicio- posicion y tamaño*/
+
+.slider_img-box {
+  margin-right: 5%;
+}
+
+.slider_img-box img {
+  width: 100%;
+}
+
+/*Seccion de Servicios- usamos un URL para jalar la imagen de la carpeta img*/
+.about_section {
+  background-image: url(img/about-bg.png);
+  background-size: cover;
+}
+
+/*Se centra el texto*/
+.about_section .row {
+    align-items: center;
+}
+
+.about_section .img-box img {
+  width: 100%;
+}
+
+/*Seccion de Servicios- Posicion del fondo e imagen*/
+.service_section .row .col-md-4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+/*Seccion de Servicios- Sirve para el fondo, de forma circular*/
+.service_section .img_box {
+  width: 110px;
+  height: 110px;
+  border-radius: 100%;
+  background-color: #18d3ff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/*Seccion de Servicios- Sirve para el espacio entre la letra y la imagen*/
+.service_section .detail_box {
+  margin-top: 25px;
+}
+
+/*Seccion de Servicios- Sirve para poner en negrita los subtittulos*/
+.service_section .detail_box h6 {
+  font-weight: bold;
+}
+
+/*Seccion de Galeria- Fondo*/
+.gallery-section {
+  background-color: #0dc3ff;
+}
+
+/*Seccion de Galeria- posicion y compatiblidad de versiones con webkit*/
+.gallery-section .container {
+  display: -webkit-box; 
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
+/*Seccion de Galeria- color de Letra Blanco*/
+
+.gallery-section .container h2 {
+  color: #ffffff;
+}
+
+/*Seccion de Galeria -Imagenes tamaño y posicion */
+.gallery-section .img_box {
+  margin: 15px 0;
+}
+
+.gallery-section .img_box img {
+  width: 100%;
+  height: 100%;
+}
+
+.gallery-section .img_box.box-1 {
+  width: 28%;
+}
+
+.gallery-section .img_box.box-2 {
+  width: 70%;
+}
+
+.gallery-section .img_box.box-3 {
+  width: 32%;
+}
+
+.gallery-section .img_box.box-4 {
+  width: 32%;
+}
+
+.gallery-section .img_box.box-5 {
+  width: 32%;
+}
+
+/* Estilos de pie de página */
+footer {
+    background-color: #63BD92;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-left: -12px;
+}
+

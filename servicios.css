@@ -1,0 +1,48 @@
+  /* Barra color y tipo de texto*/
+  .texto-p {
+  margin-top: 5px;
+  font-size: 24px; 
+  font-weight: bold;
+  }
+  
+  .color_banda{
+    background-color: #C62626;
+  }
+  
+/*Color de fondo pagina Servicios*/ 
+
+.color_fondo{
+    background-color: white;
+}
+ /*Cuerpo de servicios*/
+.centrar{
+    margin-top: 30px;
+    font-weight: bold;
+    justify-content: center;
+    background-color: white;
+}
+
+.p4{
+     margin-left: 120px;
+     margin-bottom: 40px;
+     width: 120px;
+}
+
+.p4_1{
+    margin-left: 110px;
+    margin-bottom: 40px;
+    width: 130px;
+}
+
+.p5{
+    font-size: larger;
+    
+}
+
+.parreglo{
+    margin-left: 10px;
+}
+
+.patras{
+    margin-right: 15px;
+}
